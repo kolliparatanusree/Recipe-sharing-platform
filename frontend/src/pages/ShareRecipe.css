@@ -1,0 +1,75 @@
+/* ShareRecipe.css */
+
+.share-recipe-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 30px;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  text-align: center;
+  color: #fff;
+}
+
+.share-recipe-container h2 {
+  font-size: 28px;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+
+.share-recipe-form {
+  display: grid;
+  gap: 20px;
+}
+
+.input-field, .textarea-field {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  color: #333;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: block;
+  margin-bottom: 15px;
+}
+
+.textarea-field {
+  height: 120px;
+  resize: none;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  background: #ff6f61;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.submit-button:hover {
+  background: #ff473d;
+  transform: scale(1.05);
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 20px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.back-link:hover {
+  color: #333;
+  text-decoration: underline;
+}
